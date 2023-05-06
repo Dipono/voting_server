@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AndroidVoting", "AndroidVoting\AndroidVoting.csproj", "{D7826FA9-66A1-4FEB-A93B-788D7A516D59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{88DEB085-2C33-4B0E-A75F-692838DCAC8F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataStore", "DataStore", "{6C6C1243-B059-4ACB-96EA-71FA1954AE21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{944AFAF6-5306-4222-8CC4-0B1F1B5A6BB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Android.Voting.Data", "Android.Voting.Data\Android.Voting.Data.csproj", "{B70D02A3-039F-455B-9E40-42B6A0B8E640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Android.Voting.Service", "Android.Voting.Service\Android.Voting.Service.csproj", "{DE43E043-B130-4E84-BE0B-AF67FAE0ADF8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7826FA9-66A1-4FEB-A93B-788D7A516D59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7826FA9-66A1-4FEB-A93B-788D7A516D59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7826FA9-66A1-4FEB-A93B-788D7A516D59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7826FA9-66A1-4FEB-A93B-788D7A516D59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B70D02A3-039F-455B-9E40-42B6A0B8E640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B70D02A3-039F-455B-9E40-42B6A0B8E640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B70D02A3-039F-455B-9E40-42B6A0B8E640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B70D02A3-039F-455B-9E40-42B6A0B8E640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE43E043-B130-4E84-BE0B-AF67FAE0ADF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE43E043-B130-4E84-BE0B-AF67FAE0ADF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE43E043-B130-4E84-BE0B-AF67FAE0ADF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE43E043-B130-4E84-BE0B-AF67FAE0ADF8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D7826FA9-66A1-4FEB-A93B-788D7A516D59} = {88DEB085-2C33-4B0E-A75F-692838DCAC8F}
+		{B70D02A3-039F-455B-9E40-42B6A0B8E640} = {6C6C1243-B059-4ACB-96EA-71FA1954AE21}
+		{DE43E043-B130-4E84-BE0B-AF67FAE0ADF8} = {944AFAF6-5306-4222-8CC4-0B1F1B5A6BB2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {200E1C9F-814B-41D0-B86F-B0C4AFB72BBD}
+	EndGlobalSection
+EndGlobal

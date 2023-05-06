@@ -1,0 +1,12 @@
+D:\AndroidVoting\Android.Voting.Service\bin\Debug\net6.0\Android.Voting.Service.deps.json
+D:\AndroidVoting\Android.Voting.Service\bin\Debug\net6.0\Android.Voting.Service.dll
+D:\AndroidVoting\Android.Voting.Service\bin\Debug\net6.0\Android.Voting.Service.pdb
+D:\AndroidVoting\Android.Voting.Service\obj\Debug\net6.0\Android.Voting.Service.csproj.AssemblyReference.cache
+D:\AndroidVoting\Android.Voting.Service\obj\Debug\net6.0\Android.Voting.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\AndroidVoting\Android.Voting.Service\obj\Debug\net6.0\Android.Voting.Service.AssemblyInfoInputs.cache
+D:\AndroidVoting\Android.Voting.Service\obj\Debug\net6.0\Android.Voting.Service.AssemblyInfo.cs
+D:\AndroidVoting\Android.Voting.Service\obj\Debug\net6.0\Android.Voting.Service.csproj.CoreCompileInputs.cache
+D:\AndroidVoting\Android.Voting.Service\obj\Debug\net6.0\Android.Voting.Service.dll
+D:\AndroidVoting\Android.Voting.Service\obj\Debug\net6.0\refint\Android.Voting.Service.dll
+D:\AndroidVoting\Android.Voting.Service\obj\Debug\net6.0\Android.Voting.Service.pdb
+D:\AndroidVoting\Android.Voting.Service\obj\Debug\net6.0\ref\Android.Voting.Service.dll

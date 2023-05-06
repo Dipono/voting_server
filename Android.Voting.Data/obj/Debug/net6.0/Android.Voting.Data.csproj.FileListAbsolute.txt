@@ -1,0 +1,14 @@
+D:\AndroidVoting\Android.Voting.Data\bin\Debug\net6.0\Android.Voting.Data.deps.json
+D:\AndroidVoting\Android.Voting.Data\bin\Debug\net6.0\Android.Voting.Data.runtimeconfig.json
+D:\AndroidVoting\Android.Voting.Data\bin\Debug\net6.0\Android.Voting.Data.dll
+D:\AndroidVoting\Android.Voting.Data\bin\Debug\net6.0\Android.Voting.Data.pdb
+D:\AndroidVoting\Android.Voting.Data\obj\Debug\net6.0\Android.Voting.Data.csproj.AssemblyReference.cache
+D:\AndroidVoting\Android.Voting.Data\obj\Debug\net6.0\Android.Voting.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\AndroidVoting\Android.Voting.Data\obj\Debug\net6.0\Android.Voting.Data.AssemblyInfoInputs.cache
+D:\AndroidVoting\Android.Voting.Data\obj\Debug\net6.0\Android.Voting.Data.AssemblyInfo.cs
+D:\AndroidVoting\Android.Voting.Data\obj\Debug\net6.0\Android.Voting.Data.csproj.CoreCompileInputs.cache
+D:\AndroidVoting\Android.Voting.Data\obj\Debug\net6.0\Android.Voting.Data.dll
+D:\AndroidVoting\Android.Voting.Data\obj\Debug\net6.0\refint\Android.Voting.Data.dll
+D:\AndroidVoting\Android.Voting.Data\obj\Debug\net6.0\Android.Voting.Data.pdb
+D:\AndroidVoting\Android.Voting.Data\obj\Debug\net6.0\Android.Voting.Data.genruntimeconfig.cache
+D:\AndroidVoting\Android.Voting.Data\obj\Debug\net6.0\ref\Android.Voting.Data.dll
