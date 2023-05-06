@@ -10,3 +10,15 @@ D:\AndroidVoting\Android.Voting.Service\obj\Debug\net6.0\Android.Voting.Service.
 D:\AndroidVoting\Android.Voting.Service\obj\Debug\net6.0\refint\Android.Voting.Service.dll
 D:\AndroidVoting\Android.Voting.Service\obj\Debug\net6.0\Android.Voting.Service.pdb
 D:\AndroidVoting\Android.Voting.Service\obj\Debug\net6.0\ref\Android.Voting.Service.dll
+D:\voting_server\Android.Voting.Service\bin\Debug\net6.0\Android.Voting.Service.deps.json
+D:\voting_server\Android.Voting.Service\bin\Debug\net6.0\Android.Voting.Service.dll
+D:\voting_server\Android.Voting.Service\bin\Debug\net6.0\Android.Voting.Service.pdb
+D:\voting_server\Android.Voting.Service\obj\Debug\net6.0\Android.Voting.Service.csproj.AssemblyReference.cache
+D:\voting_server\Android.Voting.Service\obj\Debug\net6.0\Android.Voting.Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\voting_server\Android.Voting.Service\obj\Debug\net6.0\Android.Voting.Service.AssemblyInfoInputs.cache
+D:\voting_server\Android.Voting.Service\obj\Debug\net6.0\Android.Voting.Service.AssemblyInfo.cs
+D:\voting_server\Android.Voting.Service\obj\Debug\net6.0\Android.Voting.Service.csproj.CoreCompileInputs.cache
+D:\voting_server\Android.Voting.Service\obj\Debug\net6.0\Android.Voting.Service.dll
+D:\voting_server\Android.Voting.Service\obj\Debug\net6.0\refint\Android.Voting.Service.dll
+D:\voting_server\Android.Voting.Service\obj\Debug\net6.0\Android.Voting.Service.pdb
+D:\voting_server\Android.Voting.Service\obj\Debug\net6.0\ref\Android.Voting.Service.dll

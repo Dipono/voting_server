@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AndroidVoting\\Android.Voting.Service\\Android.Voting.Service.csproj",
+      "projectUniqueName": "D:\\voting_server\\Android.Voting.Service\\Android.Voting.Service.csproj",
       "projectName": "Android.Voting.Service",
-      "projectPath": "D:\\AndroidVoting\\Android.Voting.Service\\Android.Voting.Service.csproj",
+      "projectPath": "D:\\voting_server\\Android.Voting.Service\\Android.Voting.Service.csproj",
       "packagesPath": "C:\\Users\\MECER\\.nuget\\packages\\",
-      "outputPath": "D:\\AndroidVoting\\Android.Voting.Service\\obj\\",
+      "outputPath": "D:\\voting_server\\Android.Voting.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\MECER\\AppData\\Roaming\\NuGet\\NuGet.Config",
