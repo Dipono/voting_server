@@ -997,19 +997,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MECER\\.nuget\\packages\\": {}
+    "C:\\Users\\Phaidi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj",
+      "projectUniqueName": "E:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj",
       "projectName": "Android.Voting.Data",
-      "projectPath": "D:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj",
-      "packagesPath": "C:\\Users\\MECER\\.nuget\\packages\\",
-      "outputPath": "D:\\voting_server\\Android.Voting.Data\\obj\\",
+      "projectPath": "E:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj",
+      "packagesPath": "C:\\Users\\Phaidi\\.nuget\\packages\\",
+      "outputPath": "E:\\voting_server\\Android.Voting.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MECER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Phaidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

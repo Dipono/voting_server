@@ -8,9 +8,8 @@ namespace Android.Voting.Data.Models
 {
     public class Vote
     {
-        public class VoteDto
-        {
-            public VoteDto()
+        
+            public Vote()
             {
                 Isuue = string.Empty;
             }
@@ -22,5 +21,5 @@ namespace Android.Voting.Data.Models
             public int Disagreed { get; set; }
 
         }
-    }
+    
 }

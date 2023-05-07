@@ -3762,19 +3762,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MECER\\.nuget\\packages\\": {}
+    "C:\\Users\\Phaidi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\voting_server\\AndroidVoting\\AndroidVoting.csproj",
+      "projectUniqueName": "E:\\voting_server\\AndroidVoting\\AndroidVoting.csproj",
       "projectName": "AndroidVoting",
-      "projectPath": "D:\\voting_server\\AndroidVoting\\AndroidVoting.csproj",
-      "packagesPath": "C:\\Users\\MECER\\.nuget\\packages\\",
-      "outputPath": "D:\\voting_server\\AndroidVoting\\obj\\",
+      "projectPath": "E:\\voting_server\\AndroidVoting\\AndroidVoting.csproj",
+      "packagesPath": "C:\\Users\\Phaidi\\.nuget\\packages\\",
+      "outputPath": "E:\\voting_server\\AndroidVoting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MECER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Phaidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3788,8 +3788,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj": {
-              "projectPath": "D:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj"
+            "E:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj": {
+              "projectPath": "E:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj"
             }
           }
         }

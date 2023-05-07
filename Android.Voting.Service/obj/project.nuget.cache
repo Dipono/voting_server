@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ms9bEmMHqD2WGWM2VeOV7zDrOSB9a7d879+/RPU5RPR/c5IhhDRCZ508vm3HrpK0nXry8kU0FUEpQYV9pmJ60Q==",
+  "dgSpecHash": "N+y56u8EUnrA0in1XfaLIwQ2Q2YOm8f6mMw4ZnL69h+URdzCH98SUXnksZayz0R6r4nJGp9ivOeJ+CDvWshCIQ==",
   "success": true,
-  "projectFilePath": "D:\\voting_server\\Android.Voting.Service\\Android.Voting.Service.csproj",
+  "projectFilePath": "E:\\voting_server\\Android.Voting.Service\\Android.Voting.Service.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
