@@ -1,10 +1,7 @@
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using Android.Voting.Data;
-using System;
+using Android.Voting.Service;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add Service to the container
@@ -25,7 +22,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<AndroidVotindDbContext, AndroidVotindDbContext>();
+builder.Services.AddScoped<IVotingService, VotingService>();
+
+
 var app = builder.Build();
+app.UseCors("ReactPolicy");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

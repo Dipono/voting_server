@@ -75,6 +75,21 @@
           }
         }
       },
+      "EntityFrameworkCore.Extensions/5.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.8",
+          "Microsoft.EntityFrameworkCore.InMemory": "5.0.8",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.8",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.8"
+        },
+        "compile": {
+          "lib/netstandard2.1/EntityFrameworkCore.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/EntityFrameworkCore.Extensions.dll": {}
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -236,6 +251,22 @@
         },
         "build": {
           "build/net6.0/Microsoft.EntityFrameworkCore.Design.props": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.InMemory/5.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.8"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/7.0.5": {
@@ -1271,6 +1302,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "EntityFrameworkCore.Extensions": "5.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.5"
         },
         "compile": {
@@ -1278,6 +1310,19 @@
         },
         "runtime": {
           "bin/placeholder/Android.Voting.Data.dll": {}
+        }
+      },
+      "Android.Voting.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Android.Voting.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Android.Voting.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Android.Voting.Service.dll": {}
         }
       }
     }
@@ -1348,6 +1393,18 @@
         "azureicon.png",
         "lib/netstandard2.0/Azure.Identity.dll",
         "lib/netstandard2.0/Azure.Identity.xml"
+      ]
+    },
+    "EntityFrameworkCore.Extensions/5.0.0": {
+      "sha512": "dJUUttgCdutyFjnZWTQvmPx00hRvUpZYQ1GA4Zlbk06Qr0Vk0aPOUz6W8NZWXZtEwNduwe3hLF6nE8FdrBCphg==",
+      "type": "package",
+      "path": "entityframeworkcore.extensions/5.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "entityframeworkcore.extensions.5.0.0.nupkg.sha512",
+        "entityframeworkcore.extensions.nuspec",
+        "lib/netstandard2.1/EntityFrameworkCore.Extensions.dll"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -1595,6 +1652,20 @@
         "lib/net6.0/Microsoft.EntityFrameworkCore.Design.xml",
         "microsoft.entityframeworkcore.design.7.0.5.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/5.0.8": {
+      "sha512": "LV9/hBseBO3kZKa/MPlWfLvfKL64Q7y2ZW2euW+kcNhhAQWsl52JIQHSL1Gu3CnzfQVbGUDkusnN4OWh6k/ALw==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/5.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.5.0.8.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/7.0.5": {
@@ -3747,11 +3818,17 @@
       "type": "project",
       "path": "../Android.Voting.Data/Android.Voting.Data.csproj",
       "msbuildProject": "../Android.Voting.Data/Android.Voting.Data.csproj"
+    },
+    "Android.Voting.Service/1.0.0": {
+      "type": "project",
+      "path": "../Android.Voting.Service/Android.Voting.Service.csproj",
+      "msbuildProject": "../Android.Voting.Service/Android.Voting.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Android.Voting.Data >= 1.0.0",
+      "Android.Voting.Service >= 1.0.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Microsoft.EntityFrameworkCore >= 7.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.5",
@@ -3762,19 +3839,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MECER\\.nuget\\packages\\": {}
+    "C:\\Users\\Phaidi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\voting_server\\AndroidVoting\\AndroidVoting.csproj",
+      "projectUniqueName": "E:\\voting_server\\AndroidVoting\\AndroidVoting.csproj",
       "projectName": "AndroidVoting",
-      "projectPath": "D:\\voting_server\\AndroidVoting\\AndroidVoting.csproj",
-      "packagesPath": "C:\\Users\\MECER\\.nuget\\packages\\",
-      "outputPath": "D:\\voting_server\\AndroidVoting\\obj\\",
+      "projectPath": "E:\\voting_server\\AndroidVoting\\AndroidVoting.csproj",
+      "packagesPath": "C:\\Users\\Phaidi\\.nuget\\packages\\",
+      "outputPath": "E:\\voting_server\\AndroidVoting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MECER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Phaidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3788,8 +3865,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj": {
-              "projectPath": "D:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj"
+            "E:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj": {
+              "projectPath": "E:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj"
+            },
+            "E:\\voting_server\\Android.Voting.Service\\Android.Voting.Service.csproj": {
+              "projectPath": "E:\\voting_server\\Android.Voting.Service\\Android.Voting.Service.csproj"
             }
           }
         }

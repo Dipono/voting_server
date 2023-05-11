@@ -9,5 +9,6 @@ namespace Android.Voting.Data
 
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Vote> Votes { get; set; }
+        public DbSet<Issue> Issues { get; set; }
     }
 }

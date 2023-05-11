@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\voting_server\\Android.Voting.Service\\Android.Voting.Service.csproj": {}
+    "E:\\voting_server\\Android.Voting.Service\\Android.Voting.Service.csproj": {}
   },
   "projects": {
-    "D:\\voting_server\\Android.Voting.Service\\Android.Voting.Service.csproj": {
+    "E:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\voting_server\\Android.Voting.Service\\Android.Voting.Service.csproj",
-        "projectName": "Android.Voting.Service",
-        "projectPath": "D:\\voting_server\\Android.Voting.Service\\Android.Voting.Service.csproj",
-        "packagesPath": "C:\\Users\\MECER\\.nuget\\packages\\",
-        "outputPath": "D:\\voting_server\\Android.Voting.Service\\obj\\",
+        "projectUniqueName": "E:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj",
+        "projectName": "Android.Voting.Data",
+        "projectPath": "E:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj",
+        "packagesPath": "C:\\Users\\Phaidi\\.nuget\\packages\\",
+        "outputPath": "E:\\voting_server\\Android.Voting.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\MECER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Phaidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,6 +28,81 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFrameworkCore.Extensions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\voting_server\\Android.Voting.Service\\Android.Voting.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\voting_server\\Android.Voting.Service\\Android.Voting.Service.csproj",
+        "projectName": "Android.Voting.Service",
+        "projectPath": "E:\\voting_server\\Android.Voting.Service\\Android.Voting.Service.csproj",
+        "packagesPath": "C:\\Users\\Phaidi\\.nuget\\packages\\",
+        "outputPath": "E:\\voting_server\\Android.Voting.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Phaidi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj": {
+                "projectPath": "E:\\voting_server\\Android.Voting.Data\\Android.Voting.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

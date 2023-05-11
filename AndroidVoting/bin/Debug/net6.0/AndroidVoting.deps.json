@@ -9,6 +9,7 @@
       "AndroidVoting/1.0.0": {
         "dependencies": {
           "Android.Voting.Data": "1.0.0",
+          "Android.Voting.Service": "1.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
           "Microsoft.EntityFrameworkCore": "7.0.5",
           "Microsoft.EntityFrameworkCore.Design": "7.0.5",
@@ -75,6 +76,20 @@
           "lib/netstandard2.0/Azure.Identity.dll": {
             "assemblyVersion": "1.6.0.0",
             "fileVersion": "1.600.22.20503"
+          }
+        }
+      },
+      "EntityFrameworkCore.Extensions/5.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.5",
+          "Microsoft.EntityFrameworkCore.InMemory": "5.0.8",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.5",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.5"
+        },
+        "runtime": {
+          "lib/netstandard2.1/EntityFrameworkCore.Extensions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
           }
         }
       },
@@ -195,6 +210,17 @@
           "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
             "assemblyVersion": "7.0.5.0",
             "fileVersion": "7.0.523.16503"
+          }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.InMemory/5.0.8": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.5"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "assemblyVersion": "5.0.8.0",
+            "fileVersion": "5.0.821.31512"
           }
         }
       },
@@ -761,10 +787,19 @@
       },
       "Android.Voting.Data/1.0.0": {
         "dependencies": {
+          "EntityFrameworkCore.Extensions": "5.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.5"
         },
         "runtime": {
           "Android.Voting.Data.dll": {}
+        }
+      },
+      "Android.Voting.Service/1.0.0": {
+        "dependencies": {
+          "Android.Voting.Data": "1.0.0"
+        },
+        "runtime": {
+          "Android.Voting.Service.dll": {}
         }
       }
     }
@@ -802,6 +837,13 @@
       "sha512": "sha512-EycyMsb6rD2PK9P0SyibFfEhvWWttdrYhyPF4f41uzdB/44yQlV+2Wehxyg489Rj6gbPvSPgbKq0xsHJBhipZA==",
       "path": "azure.identity/1.6.0",
       "hashPath": "azure.identity.1.6.0.nupkg.sha512"
+    },
+    "EntityFrameworkCore.Extensions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dJUUttgCdutyFjnZWTQvmPx00hRvUpZYQ1GA4Zlbk06Qr0Vk0aPOUz6W8NZWXZtEwNduwe3hLF6nE8FdrBCphg==",
+      "path": "entityframeworkcore.extensions/5.0.0",
+      "hashPath": "entityframeworkcore.extensions.5.0.0.nupkg.sha512"
     },
     "Humanizer.Core/2.14.1": {
       "type": "package",
@@ -865,6 +907,13 @@
       "sha512": "sha512-fzoU+Jk/chkqVOzDjuF+fwdc/6Tyqbp9L7rDORqB6IwHRG7nr+QnFOPdRi3B5kAZldvsvhUt+6Cl5qzeLT7B0Q==",
       "path": "microsoft.entityframeworkcore.design/7.0.5",
       "hashPath": "microsoft.entityframeworkcore.design.7.0.5.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/5.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LV9/hBseBO3kZKa/MPlWfLvfKL64Q7y2ZW2euW+kcNhhAQWsl52JIQHSL1Gu3CnzfQVbGUDkusnN4OWh6k/ALw==",
+      "path": "microsoft.entityframeworkcore.inmemory/5.0.8",
+      "hashPath": "microsoft.entityframeworkcore.inmemory.5.0.8.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/7.0.5": {
       "type": "package",
@@ -1301,6 +1350,11 @@
       "hashPath": "system.windows.extensions.7.0.0.nupkg.sha512"
     },
     "Android.Voting.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Android.Voting.Service/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

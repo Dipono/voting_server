@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Android.Voting.Data\Android.Voting.Data.csproj" />
+    <ProjectReference Include="..\Android.Voting.Service\Android.Voting.Service.csproj" />
   </ItemGroup>
 
 </Project>
